@@ -74,7 +74,7 @@ dynare two_country_rbc.mod
 
 The model includes residual, steady-state, determinacy, and model-diagnostic commands, a fixed simulation seed, 20-period impulse responses, and 1,053 simulation periods. Capital follows Dynare's end-of-period convention, with lagged capital in current production.
 
-**Validation status:** Python results have been recomputed. MATLAB and Dynare are unavailable in the preparation environment, so the repaired calibration and dynamic model have not been executed. Dynamic results and IRFs should be reviewed after a successful local run.
+**Software requirements:** MATLAB with Optimization Toolbox is required for steady-state calculations, and Dynare is required for dynamic simulation. See CHANGELOG.md for validation details.
 
 ## Remaining reconciliation
 
