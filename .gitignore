@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+*.mat
+*.log
+*.asv
+dynare/+two_country_rbc/
+dynare/two_country_rbc/

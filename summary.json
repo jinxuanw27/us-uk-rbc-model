@@ -1,0 +1,30 @@
+{
+  "us": {
+    "labor_share": 0.6261774125925925,
+    "log_scaling_constant": 2.785950673828649,
+    "scaling_constant": 16.215225942508944,
+    "intercept_pvalue": 1.8263473951105557e-52,
+    "government_output_ratio": 0.2102920947033131
+  },
+  "uk": {
+    "labor_share": 0.6109429948148148,
+    "log_scaling_constant": 2.6542584132482943,
+    "scaling_constant": 14.214440908681004,
+    "intercept_pvalue": 6.560628363330989e-60,
+    "government_output_ratio": 0.23410139315623943
+  },
+  "start_year": 1960,
+  "end_year": 2013,
+  "observations": 54,
+  "selected_orders": {
+    "aic": 1,
+    "bic": 1,
+    "hqic": 1,
+    "fpe": 1
+  },
+  "used_lag": 1,
+  "var_stable": true,
+  "residual_correlation": 0.384622213230617,
+  "us_predicts_uk_pvalue": 0.0006032357545206519,
+  "uk_predicts_us_pvalue": 0.45092870540135993
+}
